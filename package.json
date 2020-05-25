@@ -15,7 +15,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "async": "^2.6.2",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "express": "^4.16.4",
     "next": "^8.0.3",
     "next-nprogress": "^1.4.0",
