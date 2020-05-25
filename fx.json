@@ -1,0 +1,940 @@
+{
+	"results": {
+		"ALL_NGN": {
+			"id": "ALL_NGN",
+			"fr": "ALL",
+			"to": "NGN",
+			"val": 3.267383
+		},
+		"XCD_NGN": {
+			"id": "XCD_NGN",
+			"fr": "XCD",
+			"to": "NGN",
+			"val": 133.207511
+		},
+		"EUR_NGN": {
+			"id": "EUR_NGN",
+			"val": 402.953267,
+			"to": "NGN",
+			"fr": "EUR"
+		},
+		"BBD_NGN": {
+			"id": "BBD_NGN",
+			"fr": "BBD",
+			"to": "NGN",
+			"val": 180.75007
+		},
+		"BTN_NGN": {
+			"id": "BTN_NGN",
+			"fr": "BTN",
+			"to": "NGN",
+			"val": 5.162519
+		},
+		"BND_NGN": {
+			"id": "BND_NGN",
+			"fr": "BND",
+			"to": "NGN",
+			"val": 266.57771
+		},
+		"XAF_NGN": {
+			"id": "XAF_NGN",
+			"fr": "XAF",
+			"to": "NGN",
+			"val": 0.614879
+		},
+		"CUP_NGN": {
+			"id": "CUP_NGN",
+			"fr": "CUP",
+			"to": "NGN",
+			"val": 13.584902
+		},
+		"USD_NGN": {
+			"id": "USD_NGN",
+			"val": 359.999914,
+			"to": "NGN",
+			"fr": "USD"
+		},
+		"FKP_NGN": {
+			"id": "FKP_NGN",
+			"fr": "FKP",
+			"to": "NGN",
+			"val": 468.624755
+		},
+		"GIP_NGN": {
+			"id": "GIP_NGN",
+			"fr": "GIP",
+			"to": "NGN",
+			"val": 468.624755
+		},
+		"HUF_NGN": {
+			"id": "HUF_NGN",
+			"fr": "HUF",
+			"to": "NGN",
+			"val": 1.242802
+		},
+		"IRR_NGN": {
+			"id": "IRR_NGN",
+			"fr": "IRR",
+			"to": "NGN",
+			"val": 0.00855
+		},
+		"JMD_NGN": {
+			"id": "JMD_NGN",
+			"fr": "JMD",
+			"to": "NGN",
+			"val": 2.666463
+		},
+		"AUD_NGN": {
+			"id": "AUD_NGN",
+			"fr": "AUD",
+			"to": "NGN",
+			"val": 251.584505
+		},
+		"LAK_NGN": {
+			"id": "LAK_NGN",
+			"fr": "LAK",
+			"to": "NGN",
+			"val": 0.041739
+		},
+		"LYD_NGN": {
+			"id": "LYD_NGN",
+			"fr": "LYD",
+			"to": "NGN",
+			"val": 258.073213
+		},
+		"MKD_NGN": {
+			"id": "MKD_NGN",
+			"fr": "MKD",
+			"to": "NGN",
+			"val": 6.557495
+		},
+		"XOF_NGN": {
+			"id": "XOF_NGN",
+			"fr": "XOF",
+			"to": "NGN",
+			"val": 0.615385
+		},
+		"NZD_NGN": {
+			"id": "NZD_NGN",
+			"val": 236.753242,
+			"to": "NGN",
+			"fr": "NZD"
+		},
+		"OMR_NGN": {
+			"id": "OMR_NGN",
+			"fr": "OMR",
+			"to": "NGN",
+			"val": 935.088696
+		},
+		"PGK_NGN": {
+			"id": "PGK_NGN",
+			"fr": "PGK",
+			"to": "NGN",
+			"val": 106.671438
+		},
+		"RWF_NGN": {
+			"id": "RWF_NGN",
+			"fr": "RWF",
+			"to": "NGN",
+			"val": 0.39779
+		},
+		"WST_NGN": {
+			"id": "WST_NGN",
+			"fr": "WST",
+			"to": "NGN",
+			"val": 136.969831
+		},
+		"RSD_NGN": {
+			"id": "RSD_NGN",
+			"fr": "RSD",
+			"to": "NGN",
+			"val": 3.414265
+		},
+		"SEK_NGN": {
+			"id": "SEK_NGN",
+			"fr": "SEK",
+			"to": "NGN",
+			"val": 37.440732
+		},
+		"TZS_NGN": {
+			"id": "TZS_NGN",
+			"fr": "TZS",
+			"to": "NGN",
+			"val": 0.156534
+		},
+		"AMD_NGN": {
+			"id": "AMD_NGN",
+			"fr": "AMD",
+			"to": "NGN",
+			"val": 0.74695
+		},
+		"BSD_NGN": {
+			"id": "BSD_NGN",
+			"fr": "BSD",
+			"to": "NGN",
+			"val": 359.963942
+		},
+		"BAM_NGN": {
+			"id": "BAM_NGN",
+			"fr": "BAM",
+			"to": "NGN",
+			"val": 206.209323
+		},
+		"CVE_NGN": {
+			"id": "CVE_NGN",
+			"fr": "CVE",
+			"to": "NGN",
+			"val": 3.643337
+		},
+		"CNY_NGN": {
+			"id": "CNY_NGN",
+			"fr": "CNY",
+			"to": "NGN",
+			"val": 53.074645
+		},
+		"CRC_NGN": {
+			"id": "CRC_NGN",
+			"fr": "CRC",
+			"to": "NGN",
+			"val": 0.603992
+		},
+		"CZK_NGN": {
+			"id": "CZK_NGN",
+			"fr": "CZK",
+			"to": "NGN",
+			"val": 15.659115
+		},
+		"ERN_NGN": {
+			"id": "ERN_NGN",
+			"fr": "ERN",
+			"to": "NGN",
+			"val": 24.000054
+		},
+		"GEL_NGN": {
+			"id": "GEL_NGN",
+			"fr": "GEL",
+			"to": "NGN",
+			"val": 131.628515
+		},
+		"HTG_NGN": {
+			"id": "HTG_NGN",
+			"fr": "HTG",
+			"to": "NGN",
+			"val": 4.133962
+		},
+		"INR_NGN": {
+			"id": "INR_NGN",
+			"fr": "INR",
+			"to": "NGN",
+			"val": 5.162105
+		},
+		"JOD_NGN": {
+			"id": "JOD_NGN",
+			"fr": "JOD",
+			"to": "NGN",
+			"val": 507.765419
+		},
+		"KRW_NGN": {
+			"id": "KRW_NGN",
+			"fr": "KRW",
+			"to": "NGN",
+			"val": 0.307034
+		},
+		"LBP_NGN": {
+			"id": "LBP_NGN",
+			"fr": "LBP",
+			"to": "NGN",
+			"val": 0.238345
+		},
+		"MWK_NGN": {
+			"id": "MWK_NGN",
+			"fr": "MWK",
+			"to": "NGN",
+			"val": 0.500045
+		},
+		"MRO_NGN": {
+			"id": "MRO_NGN",
+			"fr": "MRO",
+			"to": "NGN",
+			"val": 1.008403
+		},
+		"MZN_NGN": {
+			"id": "MZN_NGN",
+			"fr": "MZN",
+			"to": "NGN",
+			"val": 5.622328
+		},
+		"ANG_NGN": {
+			"id": "ANG_NGN",
+			"fr": "ANG",
+			"to": "NGN",
+			"val": 191.984827
+		},
+		"PEN_NGN": {
+			"id": "PEN_NGN",
+			"fr": "PEN",
+			"to": "NGN",
+			"val": 108.596299
+		},
+		"QAR_NGN": {
+			"id": "QAR_NGN",
+			"fr": "QAR",
+			"to": "NGN",
+			"val": 98.867172
+		},
+		"STD_NGN": {
+			"id": "STD_NGN",
+			"fr": "STD",
+			"to": "NGN",
+			"val": 0.017102
+		},
+		"SLL_NGN": {
+			"id": "SLL_NGN",
+			"fr": "SLL",
+			"to": "NGN",
+			"val": 0.040793
+		},
+		"SOS_NGN": {
+			"id": "SOS_NGN",
+			"fr": "SOS",
+			"to": "NGN",
+			"val": 0.618056
+		},
+		"SDG_NGN": {
+			"id": "SDG_NGN",
+			"fr": "SDG",
+			"to": "NGN",
+			"val": 7.97952
+		},
+		"SYP_NGN": {
+			"id": "SYP_NGN",
+			"fr": "SYP",
+			"to": "NGN",
+			"val": 0.69903
+		},
+		"AOA_NGN": {
+			"id": "AOA_NGN",
+			"fr": "AOA",
+			"to": "NGN",
+			"val": 1.107232
+		},
+		"AWG_NGN": {
+			"id": "AWG_NGN",
+			"fr": "AWG",
+			"to": "NGN",
+			"val": 199.999933
+		},
+		"BHD_NGN": {
+			"id": "BHD_NGN",
+			"fr": "BHD",
+			"to": "NGN",
+			"val": 954.920146
+		},
+		"BZD_NGN": {
+			"id": "BZD_NGN",
+			"fr": "BZD",
+			"to": "NGN",
+			"val": 178.588883
+		},
+		"BWP_NGN": {
+			"id": "BWP_NGN",
+			"fr": "BWP",
+			"to": "NGN",
+			"val": 33.458015
+		},
+		"BIF_NGN": {
+			"id": "BIF_NGN",
+			"fr": "BIF",
+			"to": "NGN",
+			"val": 0.196185
+		},
+		"KYD_NGN": {
+			"id": "KYD_NGN",
+			"fr": "KYD",
+			"to": "NGN",
+			"val": 431.944798
+		},
+		"COP_NGN": {
+			"id": "COP_NGN",
+			"fr": "COP",
+			"to": "NGN",
+			"val": 0.109323
+		},
+		"DKK_NGN": {
+			"id": "DKK_NGN",
+			"fr": "DKK",
+			"to": "NGN",
+			"val": 53.969733
+		},
+		"GTQ_NGN": {
+			"id": "GTQ_NGN",
+			"fr": "GTQ",
+			"to": "NGN",
+			"val": 46.994006
+		},
+		"HNL_NGN": {
+			"id": "HNL_NGN",
+			"fr": "HNL",
+			"to": "NGN",
+			"val": 14.635409
+		},
+		"IDR_NGN": {
+			"id": "IDR_NGN",
+			"fr": "IDR",
+			"to": "NGN",
+			"val": 0.025126
+		},
+		"ILS_NGN": {
+			"id": "ILS_NGN",
+			"fr": "ILS",
+			"to": "NGN",
+			"val": 100.751479
+		},
+		"KZT_NGN": {
+			"id": "KZT_NGN",
+			"fr": "KZT",
+			"to": "NGN",
+			"val": 0.947368
+		},
+		"KWD_NGN": {
+			"id": "KWD_NGN",
+			"fr": "KWD",
+			"to": "NGN",
+			"val": 1183.415683
+		},
+		"LSL_NGN": {
+			"id": "LSL_NGN",
+			"fr": "LSL",
+			"to": "NGN",
+			"val": 25.017163
+		},
+		"MYR_NGN": {
+			"id": "MYR_NGN",
+			"fr": "MYR",
+			"to": "NGN",
+			"val": 86.751107
+		},
+		"MUR_NGN": {
+			"id": "MUR_NGN",
+			"fr": "MUR",
+			"to": "NGN",
+			"val": 10.264598
+		},
+		"MNT_NGN": {
+			"id": "MNT_NGN",
+			"fr": "MNT",
+			"to": "NGN",
+			"val": 0.136317
+		},
+		"MMK_NGN": {
+			"id": "MMK_NGN",
+			"fr": "MMK",
+			"to": "NGN",
+			"val": 0.235903
+		},
+		"NGN_NGN": {
+			"id": "NGN_NGN",
+			"fr": "NGN",
+			"to": "NGN",
+			"val": 1
+		},
+		"PAB_NGN": {
+			"id": "PAB_NGN",
+			"fr": "PAB",
+			"to": "NGN",
+			"val": 359.946024
+		},
+		"PHP_NGN": {
+			"id": "PHP_NGN",
+			"fr": "PHP",
+			"to": "NGN",
+			"val": 6.897213
+		},
+		"RON_NGN": {
+			"id": "RON_NGN",
+			"fr": "RON",
+			"to": "NGN",
+			"val": 84.70183
+		},
+		"SAR_NGN": {
+			"id": "SAR_NGN",
+			"fr": "SAR",
+			"to": "NGN",
+			"val": 95.993625
+		},
+		"SGD_NGN": {
+			"id": "SGD_NGN",
+			"fr": "SGD",
+			"to": "NGN",
+			"val": 264.161461
+		},
+		"ZAR_NGN": {
+			"id": "ZAR_NGN",
+			"fr": "ZAR",
+			"to": "NGN",
+			"val": 25.045128
+		},
+		"SRD_NGN": {
+			"id": "SRD_NGN",
+			"fr": "SRD",
+			"to": "NGN",
+			"val": 48.270385
+		},
+		"TWD_NGN": {
+			"id": "TWD_NGN",
+			"fr": "TWD",
+			"to": "NGN",
+			"val": 11.629043
+		},
+		"TOP_NGN": {
+			"id": "TOP_NGN",
+			"fr": "TOP",
+			"to": "NGN",
+			"val": 157.550927
+		},
+		"VEF_NGN": {
+			"id": "VEF_NGN",
+			"fr": "VEF",
+			"to": "NGN",
+			"val": 36.045055
+		},
+		"DZD_NGN": {
+			"id": "DZD_NGN",
+			"fr": "DZD",
+			"to": "NGN",
+			"val": 3.009774
+		},
+		"ARS_NGN": {
+			"id": "ARS_NGN",
+			"fr": "ARS",
+			"to": "NGN",
+			"val": 7.98628
+		},
+		"AZN_NGN": {
+			"id": "AZN_NGN",
+			"fr": "AZN",
+			"to": "NGN",
+			"val": 211.141745
+		},
+		"BYR_NGN": {
+			"id": "BYR_NGN",
+			"fr": "BYR",
+			"to": "NGN",
+			"val": 0.018367
+		},
+		"BOB_NGN": {
+			"id": "BOB_NGN",
+			"fr": "BOB",
+			"to": "NGN",
+			"val": 52.094245
+		},
+		"BGN_NGN": {
+			"id": "BGN_NGN",
+			"fr": "BGN",
+			"to": "NGN",
+			"val": 205.973199
+		},
+		"CAD_NGN": {
+			"id": "CAD_NGN",
+			"fr": "CAD",
+			"to": "NGN",
+			"val": 267.094954
+		},
+		"CLP_NGN": {
+			"id": "CLP_NGN",
+			"fr": "CLP",
+			"to": "NGN",
+			"val": 0.526004
+		},
+		"CDF_NGN": {
+			"id": "CDF_NGN",
+			"fr": "CDF",
+			"to": "NGN",
+			"val": 0.220049
+		},
+		"DOP_NGN": {
+			"id": "DOP_NGN",
+			"fr": "DOP",
+			"to": "NGN",
+			"val": 7.108304
+		},
+		"FJD_NGN": {
+			"id": "FJD_NGN",
+			"fr": "FJD",
+			"to": "NGN",
+			"val": 167.39921
+		},
+		"GMD_NGN": {
+			"id": "GMD_NGN",
+			"fr": "GMD",
+			"to": "NGN",
+			"val": 7.255875
+		},
+		"GYD_NGN": {
+			"id": "GYD_NGN",
+			"fr": "GYD",
+			"to": "NGN",
+			"val": 1.721993
+		},
+		"ISK_NGN": {
+			"id": "ISK_NGN",
+			"fr": "ISK",
+			"to": "NGN",
+			"val": 2.93709
+		},
+		"IQD_NGN": {
+			"id": "IQD_NGN",
+			"fr": "IQD",
+			"to": "NGN",
+			"val": 0.302521
+		},
+		"JPY_NGN": {
+			"id": "JPY_NGN",
+			"fr": "JPY",
+			"to": "NGN",
+			"val": 3.269962
+		},
+		"KPW_NGN": {
+			"id": "KPW_NGN",
+			"fr": "KPW",
+			"to": "NGN",
+			"val": 0.399979
+		},
+		"LVL_NGN": {
+			"id": "LVL_NGN",
+			"fr": "LVL",
+			"to": "NGN",
+			"val": 595.149768
+		},
+		"CHF_NGN": {
+			"id": "CHF_NGN",
+			"fr": "CHF",
+			"to": "NGN",
+			"val": 352.727017
+		},
+		"MGA_NGN": {
+			"id": "MGA_NGN",
+			"fr": "MGA",
+			"to": "NGN",
+			"val": 0.099654
+		},
+		"MDL_NGN": {
+			"id": "MDL_NGN",
+			"fr": "MDL",
+			"to": "NGN",
+			"val": 20.093825
+		},
+		"MAD_NGN": {
+			"id": "MAD_NGN",
+			"fr": "MAD",
+			"to": "NGN",
+			"val": 37.205066
+		},
+		"NPR_NGN": {
+			"id": "NPR_NGN",
+			"fr": "NPR",
+			"to": "NGN",
+			"val": 3.234939
+		},
+		"NIO_NGN": {
+			"id": "NIO_NGN",
+			"fr": "NIO",
+			"to": "NGN",
+			"val": 10.853122
+		},
+		"PKR_NGN": {
+			"id": "PKR_NGN",
+			"fr": "PKR",
+			"to": "NGN",
+			"val": 2.542555
+		},
+		"PYG_NGN": {
+			"id": "PYG_NGN",
+			"fr": "PYG",
+			"to": "NGN",
+			"val": 0.056683
+		},
+		"SHP_NGN": {
+			"id": "SHP_NGN",
+			"fr": "SHP",
+			"to": "NGN",
+			"val": 272.541197
+		},
+		"SCR_NGN": {
+			"id": "SCR_NGN",
+			"fr": "SCR",
+			"to": "NGN",
+			"val": 26.316754
+		},
+		"SBD_NGN": {
+			"id": "SBD_NGN",
+			"fr": "SBD",
+			"to": "NGN",
+			"val": 44.089
+		},
+		"LKR_NGN": {
+			"id": "LKR_NGN",
+			"fr": "LKR",
+			"to": "NGN",
+			"val": 2.060556
+		},
+		"THB_NGN": {
+			"id": "THB_NGN",
+			"fr": "THB",
+			"to": "NGN",
+			"val": 11.320106
+		},
+		"TRY_NGN": {
+			"id": "TRY_NGN",
+			"fr": "TRY",
+			"to": "NGN",
+			"val": 58.189346
+		},
+		"AED_NGN": {
+			"id": "AED_NGN",
+			"fr": "AED",
+			"to": "NGN",
+			"val": 98.012314
+		},
+		"VUV_NGN": {
+			"id": "VUV_NGN",
+			"fr": "VUV",
+			"to": "NGN",
+			"val": 3.121106
+		},
+		"YER_NGN": {
+			"id": "YER_NGN",
+			"fr": "YER",
+			"to": "NGN",
+			"val": 1.437989
+		},
+		"AFN_NGN": {
+			"id": "AFN_NGN",
+			"fr": "AFN",
+			"to": "NGN",
+			"val": 4.604167
+		},
+		"BDT_NGN": {
+			"id": "BDT_NGN",
+			"fr": "BDT",
+			"to": "NGN",
+			"val": 4.260555
+		},
+		"BRL_NGN": {
+			"id": "BRL_NGN",
+			"fr": "BRL",
+			"to": "NGN",
+			"val": 91.647396
+		},
+		"KHR_NGN": {
+			"id": "KHR_NGN",
+			"fr": "KHR",
+			"to": "NGN",
+			"val": 0.08867
+		},
+		"KMF_NGN": {
+			"id": "KMF_NGN",
+			"fr": "KMF",
+			"to": "NGN",
+			"val": 0.818274
+		},
+		"HRK_NGN": {
+			"id": "HRK_NGN",
+			"fr": "HRK",
+			"to": "NGN",
+			"val": 54.367505
+		},
+		"DJF_NGN": {
+			"id": "DJF_NGN",
+			"fr": "DJF",
+			"to": "NGN",
+			"val": 2.025659
+		},
+		"EGP_NGN": {
+			"id": "EGP_NGN",
+			"fr": "EGP",
+			"to": "NGN",
+			"val": 20.986401
+		},
+		"ETB_NGN": {
+			"id": "ETB_NGN",
+			"fr": "ETB",
+			"to": "NGN",
+			"val": 12.435221
+		},
+		"XPF_NGN": {
+			"id": "XPF_NGN",
+			"fr": "XPF",
+			"to": "NGN",
+			"val": 3.367525
+		},
+		"GHS_NGN": {
+			"id": "GHS_NGN",
+			"fr": "GHS",
+			"to": "NGN",
+			"val": 69.297165
+		},
+		"GNF_NGN": {
+			"id": "GNF_NGN",
+			"fr": "GNF",
+			"to": "NGN",
+			"val": 0.039003
+		},
+		"HKD_NGN": {
+			"id": "HKD_NGN",
+			"fr": "HKD",
+			"to": "NGN",
+			"val": 45.864296
+		},
+		"XDR_NGN": {
+			"id": "XDR_NGN",
+			"fr": "XDR",
+			"to": "NGN",
+			"val": 498.449173
+		},
+		"KES_NGN": {
+			"id": "KES_NGN",
+			"fr": "KES",
+			"to": "NGN",
+			"val": 3.55575
+		},
+		"KGS_NGN": {
+			"id": "KGS_NGN",
+			"fr": "KGS",
+			"to": "NGN",
+			"val": 5.154004
+		},
+		"LRD_NGN": {
+			"id": "LRD_NGN",
+			"fr": "LRD",
+			"to": "NGN",
+			"val": 2.041105
+		},
+		"MOP_NGN": {
+			"id": "MOP_NGN",
+			"fr": "MOP",
+			"to": "NGN",
+			"val": 44.529931
+		},
+		"MVR_NGN": {
+			"id": "MVR_NGN",
+			"fr": "MVR",
+			"to": "NGN",
+			"val": 23.369668
+		},
+		"MXN_NGN": {
+			"id": "MXN_NGN",
+			"fr": "MXN",
+			"to": "NGN",
+			"val": 18.83801
+		},
+		"NAD_NGN": {
+			"id": "NAD_NGN",
+			"fr": "NAD",
+			"to": "NGN",
+			"val": 25.017763
+		},
+		"NOK_NGN": {
+			"id": "NOK_NGN",
+			"fr": "NOK",
+			"to": "NGN",
+			"val": 41.055251
+		},
+		"PLN_NGN": {
+			"id": "PLN_NGN",
+			"fr": "PLN",
+			"to": "NGN",
+			"val": 93.853881
+		},
+		"RUB_NGN": {
+			"id": "RUB_NGN",
+			"fr": "RUB",
+			"to": "NGN",
+			"val": 5.533141
+		},
+		"SZL_NGN": {
+			"id": "SZL_NGN",
+			"fr": "SZL",
+			"to": "NGN",
+			"val": 25.01724
+		},
+		"TJS_NGN": {
+			"id": "TJS_NGN",
+			"fr": "TJS",
+			"to": "NGN",
+			"val": 38.130745
+		},
+		"TTD_NGN": {
+			"id": "TTD_NGN",
+			"fr": "TTD",
+			"to": "NGN",
+			"val": 53.125179
+		},
+		"UGX_NGN": {
+			"id": "UGX_NGN",
+			"fr": "UGX",
+			"to": "NGN",
+			"val": 0.09532
+		},
+		"UYU_NGN": {
+			"id": "UYU_NGN",
+			"fr": "UYU",
+			"to": "NGN",
+			"val": 10.26802
+		},
+		"VND_NGN": {
+			"id": "VND_NGN",
+			"fr": "VND",
+			"to": "NGN",
+			"val": 0.015406
+		},
+		"TND_NGN": {
+			"id": "TND_NGN",
+			"fr": "TND",
+			"to": "NGN",
+			"val": 119.700703
+		},
+		"UAH_NGN": {
+			"id": "UAH_NGN",
+			"fr": "UAH",
+			"to": "NGN",
+			"val": 13.599769
+		},
+		"UZS_NGN": {
+			"id": "UZS_NGN",
+			"fr": "UZS",
+			"to": "NGN",
+			"val": 0.042629
+		},
+		"TMT_NGN": {
+			"id": "TMT_NGN",
+			"fr": "TMT",
+			"to": "NGN",
+			"val": 102.857122
+		},
+		"GBP_NGN": {
+			"id": "GBP_NGN",
+			"val": 468.321629,
+			"to": "NGN",
+			"fr": "GBP"
+		},
+		"ZMW_NGN": {
+			"id": "ZMW_NGN",
+			"fr": "ZMW",
+			"to": "NGN",
+			"val": 27.991554
+		},
+		"BTC_NGN": {
+			"id": "BTC_NGN",
+			"fr": "BTC",
+			"to": "NGN",
+			"val": 2139368.536689
+		},
+		"BYN_NGN": {
+			"id": "BYN_NGN",
+			"fr": "BYN",
+			"to": "NGN",
+			"val": 170.684947
+		}
+	}
+}

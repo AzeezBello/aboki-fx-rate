@@ -1,0 +1,43 @@
+{
+  "name": "AbokiFxRate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "deploy": "next build && sls deploy --aws-profile abokifxrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "async": "^2.6.2",
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "next-nprogress": "^1.4.0",
+    "next-routes": "^1.4.2",
+    "path-match": "^1.2.4",
+    "prismic-javascript": "^2.0.3",
+    "prismic-reactjs": "^0.3.2",
+    "pure-react-carousel": "1.17.0",
+    "react": "^16.8.3",
+    "react-browser-notifications": "^1.0.14",
+    "react-dom": "^16.8.3",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-social-sharing": "^3.0.1",
+    "react-text-truncate": "^0.14.1",
+    "react-web-notification": "^0.5.0",
+    "semantic-ui-react": "^0.85.0",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-http": "^1.9.1",
+    "styled-jsx": "3.0.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "serverless-domain-manager": "^3.2.1"
+  }
+}
