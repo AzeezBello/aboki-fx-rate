@@ -10,7 +10,7 @@ export default ({ props = { title, description } }) => (
             <meta name='description' content={props.description || 'Next.js Test Description'} />
             <meta name="google-site-verification" content="y8nqH5jS6X0wh4yu_MflsmXuu8cM1UzdCOsNoK7z0FM" />
             <meta name='viewport' content='width=device-width, initial-scale=1' />
-            <meta name="fo-verify" content="895388ad-a2b3-4527-bcad-eb1503379bc3">
+            <meta name="fo-verify" content="895388ad-a2b3-4527-bcad-eb1503379bc3" />
             <meta charSet='utf-8' />
             <link rel="apple-touch-icon" sizes="180x180" href="/static/assets/apple-touch-icon.png" />
             <link rel="icon" type="image/png" sizes="32x32" href="/static/assets/favicon-32x32.png" />
@@ -24,7 +24,7 @@ export default ({ props = { title, description } }) => (
             <noscript><img height="1" width="1" style={{"display":"none"}} src="https://www.facebook.com/tr?id=1446673552134098&ev=PageView&noscript=1"/></noscript>
             <script dangerouslySetInnerHTML={{ __html:`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M35J3X2');`}}></script>
             {/* <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
-            <script dangerouslySetInnerHTML={{ __html:`(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-7465931968344574", enable_page_level_ads: true });`}}></script>
+            <script dangerouslySetInnerHTML={{ __html:`(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-3236992787867833", enable_page_level_ads: true });`}}></script>
             <script dangerouslySetInnerHTML={{ __html:`window.prismic = {endpoint: '${config.PRISMIC_API_URL}'};`}}></script>
             <script type="text/javascript" src="//static.cdn.prismic.io/prismic.min.js"></script>
         </Head>

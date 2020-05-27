@@ -38,6 +38,6 @@
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "serverless-domain-manager": "^3.2.1"
+    "serverless-domain-manager": "^3.3.1"
   }
 }
