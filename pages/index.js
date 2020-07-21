@@ -19,7 +19,7 @@ import "pure-react-carousel/dist/react-carousel.es.css"
 
 const meta = {
     title: 'AbokiFxRate | Your daily Naira exchange rate',
-    description: 'Naira to Dollar exchange rates platform. Daily dollar rate, convert foreign currencies including Naira to Euro, Naira to Pounds, with live foreign exchange rate calculator on AbokiFX.'
+    description: 'Aboki FX Live Daily Naira to Dollar Exchange Rates. AbokiFX Daily dollar rate,  Naira to Euro, Naira to Pounds, with live foreign exchange rate calculator on AbokiFX.'
 }
 
 const Home = (props) => {

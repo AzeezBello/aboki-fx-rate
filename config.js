@@ -4,14 +4,14 @@ const NEWS_URL = 'nigeriannews-nigeriannewspapers'
 
 
 const DEFAULT_SEO = {
-    title: 'AbokiFX Rate | Your Daily Naira to Dollar Exchange Rate',
-    description: 'The most trusted Naira to Dollar exchange rates platform. Get free daily dollar rate, convert foreign currencies including Naira to cedi, Naira to Pounds, with live foreign exchange rate calculator on AbokiFX.',
+    title: 'AbokiFX Rate | Your Daily Naira Exchange Rate',
+    description: 'Aboki FX Live Daily Naira to Dollar Exchange Rates. AbokiFX Daily dollar rate,  Naira to Euro, Naira to Pounds, with live foreign exchange rate calculator on AbokiFX.',
     openGraph: {
       type: 'website',
       locale: 'en_IE',
       url: 'https://abokifxrate.com',
-      title: 'AbokiFX Rate | Your Daily Naira to Dollar Exchange Rate',
-      description: 'The most trusted Naira to Dollar exchange rates platform. Get free daily dollar rate, convert foreign currencies including Naira to cedi, Naira to Pounds, with live foreign exchange rate calculator on AbokiFX.',
+      title: 'AbokiFX Rate | Your Daily Naira Exchange Rate',
+      description: 'Aboki FX Live Daily Naira to Dollar Exchange Rates. AbokiFX Daily dollar rate,  Naira to Euro, Naira to Pounds, with live foreign exchange rate calculator on AbokiFX.',
       image:
         '/static/assets/android-chrome-512x512.png',
       site_name: 'abokifxrate.com',
