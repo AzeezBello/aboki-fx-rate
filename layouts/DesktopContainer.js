@@ -49,7 +49,7 @@ class DesktopContainer extends React.Component {
                             <Container>
                                 <Menu.Item as='a'>
                                     <Link href='/' prefetch passHref>
-                                        <Image src='/static/assets/logo-old.png' inline size='small' />
+                                        <Image src='/assets/logo-old.png' inline size='small' />
                                     </Link>
                                     <span style={{ color: 'grey', fontWeight: 'thin', textTransform: 'uppercase', fontFamily: '' }}>
                                         Your daily Naira to dollar exchange rate

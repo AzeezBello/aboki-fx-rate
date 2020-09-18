@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => (
-    <h1>cookie policy</h1>
-)
+const CookiePolicy = () => <h1>cookie policy</h1>;
+
+export default CookiePolicy;
 

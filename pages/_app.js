@@ -21,7 +21,7 @@ class MyApp extends App {
     render() {
         const { Component, pageProps } = this.props;
         return (
-            <Container>
+            <div>
                 <Head>
                     <title key="title">{DEFAULT_SEO.title}</title>
                     <meta
@@ -81,7 +81,7 @@ class MyApp extends App {
                     />
                 </Head>
                 <Component {...pageProps} />
-            </Container>
+            </div>
         );
     }
 }
