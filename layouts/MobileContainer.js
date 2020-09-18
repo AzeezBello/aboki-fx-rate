@@ -32,7 +32,7 @@ export default class MobileContainer extends Component {
                     </Menu.Item>
                     <Menu.Item position='right'>
                         <Link href='/'>
-                            <Image src='/static/assets/logo-old.png' size='small' />
+                            <Image src='/assets/logo-old.png' size='small' />
                         </Link>
                     </Menu.Item>
                 </Menu>
