@@ -13,7 +13,6 @@ import HomepageHeading from '../components/Heading'
 import getWidth from '../layouts/utility'
 import { docAPI } from '../api'
 import AdsWidget from '../components/AdsWidget'
-import AdSenseWidget from '../components/AdsenseWidget';
 import CardCarousel from '../components/CardCarousel'
 import "pure-react-carousel/dist/react-carousel.es.css"
 
@@ -62,9 +61,6 @@ const Home = (props) => {
                             <AdsWidget size={3} />
                         </Grid.Column>
                     </Grid.Row>
-                  
-                    {/* <AdSenseWidget  />                        */}
-               
                 </Grid>
             </Container>
         </Layout>

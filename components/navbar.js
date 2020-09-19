@@ -17,7 +17,7 @@ export default ({ position }) => (
             </Menu.Item>
             <Menu.Item>
                 <Link href="/arabic-rates" passHref prefetch>
-                    <Header color='orange'>Arabic Rates</Header>
+                    <Header color='orange'>سعرالدولاراليم</Header>
                 </Link>
             </Menu.Item>
             <Menu.Item>
