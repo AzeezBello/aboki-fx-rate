@@ -1,15 +1,43 @@
 # AbokiFX Rate
 
-Source for [abokifxrate.com](https://abokifxrate.com), a naira (NGN) exchange-rate site: a converter that answers as you type, mid-market rates for 155 currencies against the naira, a Nigerian news section fed from Prismic, and an Arabic dollar-rate page.
+[![Build and test](https://github.com/Viral-Ad-Media/aboki-fx-rate/actions/workflows/build.yml/badge.svg)](https://github.com/Viral-Ad-Media/aboki-fx-rate/actions/workflows/build.yml)
 
-The app is a [Next.js 16](https://nextjs.org/) Pages Router site on React 19, styled with Tailwind CSS 4 and [shadcn/ui](https://ui.shadcn.com/) components (nova style, on Base UI). It deploys to Vercel from `master`; the custom domain abokifxrate.com points at Vercel's nameservers.
+Source for [abokifxrate.com](https://abokifxrate.com), a naira (NGN) exchange-rate site: a converter that answers as you type, live mid-market rates for every currency the feeds quote (148 at the last refresh) against the naira, a Nigerian news section fed from Prismic, and an Arabic dollar-rate page.
+
+The app is a [Next.js 16](https://nextjs.org/) Pages Router site on React 19, styled with Tailwind CSS 4 and [shadcn/ui](https://ui.shadcn.com/) components (nova style, on Base UI). Rates are fetched at build time and regenerated hourly (ISR), with the committed `fx.json` as the fallback. It deploys to Vercel from `master`; the custom domain abokifxrate.com points at Vercel's nameservers. Every pull request and push to `master` runs the Vitest suite and `next build` in GitHub Actions.
+
+## Screenshots
+
+Captured from a local production build (`next build && next start`) at 1440×900 in November 2026. The figures are the ones the live site showed at the time, so they are not a live quote.
+
+| Home: the converter is the hero | Home on a phone |
+|---|---|
+| ![Home page with the hero and converter](docs/screenshots/home.png) | <img src="docs/screenshots/home-mobile.png" alt="Home page at phone width" width="300"> |
+
+**Headline bands.** USD, EUR, GBP, AED and CAD as full-width bands; the switch flips the direction of the quote and colours the band in that note's colour.
+
+![Headline currency bands](docs/screenshots/rate-bands.png)
+
+**The whole board.** Every currency by region, quoted as one unit in naira, with the inverse alongside.
+
+![Currency board grouped by region](docs/screenshots/currency-board.png)
+
+| About | Contact |
+|---|---|
+| ![About page](docs/screenshots/about.png) | ![Contact page](docs/screenshots/contact.png) |
+
+**News.** The index below shows the empty state: Prismic is not reachable from the machine the screenshots were taken on, so no stories loaded. In production the page lists the latest Nigerian newspaper stories with pagination.
+
+![News index showing the empty state](docs/screenshots/news.png)
+
+To refresh the screenshots, run the app locally and capture the pages with Playwright (any browser works); keep them in `docs/screenshots/` at 2× device scale so they stay sharp on GitHub.
 
 ## Features
 
 - **Converter** (`components/site/Converter.jsx`): any two currencies and an amount. Direct `X_NGN` pairs are used where they exist; otherwise the rate is derived through the naira.
 - **Remittance figure** (`components/site/Remittance.jsx`): a slider from $100 to $10,000 and the naira figure for it.
 - **Headline bands** (`components/site/RateBands.jsx`): USD, EUR, GBP, AED and CAD as full-width bands with a switch that flips the direction of the quote. The on-state colours are the naira notes.
-- **The whole board** (`components/site/CurrencyBoard.jsx`): all 155 currencies by region, quoted as one unit in naira.
+- **The whole board** (`components/site/CurrencyBoard.jsx`): every currency by region, quoted as one unit in naira.
 - **Nigerian news** (`pages/nigeriannews-nigeriannewspapers/`): index with pagination and article pages rendered with `@prismicio/react`. Articles emit `NewsArticle` JSON-LD.
 - **Questions** (`components/site/Faq.jsx`): six plain answers about the aboki rate.
 - **Arabic rates** (`pages/arabic-rates.js`): embeds the eldolar.live widget.
@@ -62,7 +90,7 @@ The news prefix is `config.NEWS_URL`. Use `next/link` for internal links.
 
 ## Getting started
 
-Node.js 20 or newer.
+Node.js 20 or newer (the CI workflow runs on Node 20).
 
 ```bash
 npm install
@@ -104,7 +132,8 @@ The page is built to the taste-skill direction "the product performs": the conve
 
 ## Known issues
 
-- **Stale rates.** `fx.json` is a static snapshot and is years old (EUR_NGN around 403). Refresh it before relying on the figures.
+- **The snapshot is only a fallback.** `fx.json` is the last committed refresh (October 2026) and is served only when neither feed answers; the page then retries after five minutes. Refresh it now and then with `getfx` so the fallback stays close to the market.
+- **CMS sections need Prismic.** When the Prismic endpoint cannot be reached the news index and article pages render an empty state, as in the screenshot above, rather than failing.
 - **The refresh handlers are local scripts.** They write `fx.json` and `supported-currencies.json` to the working directory; run them locally with `CURRENCY_API_KEY` set, then commit the result.
 
 ## License
